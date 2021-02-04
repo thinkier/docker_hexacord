@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  bungee:
+    build: .
+    volumes:
+      - ./env:/env
